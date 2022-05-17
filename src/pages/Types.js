@@ -10,7 +10,7 @@ const Types = (props) => {
 
   //retrieves types from database and sets them
   const getTypes = async () => {
-    const response = await axios.get('http://localhost:3001/types')
+    const response = await axios.get('https://youandibe.herokuapp.com/types')
     setTypes(response.data.types)
   }
 

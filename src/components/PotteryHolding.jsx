@@ -28,14 +28,14 @@ const PotteryHolding = (props) => {
   //handles create submit and navigates back to types
   const handleSubmit = async (e) => {
     e.preventDefault()
-      await axios.put(`http://localhost:3001/update/${props.id}`, formValue)
+      await axios.put(`https://youandibe.herokuapp.com/update/${props.id}`, formValue)
       navigate('/types')
   }
 
 //handles delete submit and navigates back to types
   const handleSubmit2 = async (e) => {
     e.preventDefault()
-      await axios.delete(`http://localhost:3001/delete/${props.id}`, formValue)
+      await axios.delete(`https://youandibe.herokuapp.com/delete/${props.id}`, formValue)
       navigate('/types')
   }
 

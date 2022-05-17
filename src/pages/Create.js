@@ -76,7 +76,10 @@ const Create = (props) => {
           />
           <button
             onClick={async () =>
-              await axios.post('http://localhost:3001/create', formValue)
+              await axios.post(
+                'https://youandibe.herokuapp.com/create',
+                formValue
+              )
             }
           >
             Create

@@ -10,7 +10,9 @@ const TypesSection = (props) => {
   const [pottery, setPottery] = useState([])
 
   const getPottery = async () => {
-    const response = await axios.get(`http://localhost:3001/types/${types}`)
+    const response = await axios.get(
+      `https://youandibe.herokuapp.com/types/${types}`
+    )
     setPottery(response.data)
   }
 
