@@ -26,7 +26,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}
@@ -44,7 +44,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}
@@ -62,7 +62,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}
@@ -80,7 +80,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}
@@ -98,7 +98,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}
@@ -116,7 +116,7 @@ const TypesSection = (props) => {
       return (
         <div>
           <Logo landingLogo={props.landingLogo} />
-          <div className="container-grid">
+          <div className="container-grid container-grid2">
             {pottery.map((pottery) => (
               <PotteryHolding
                 id={pottery._id}

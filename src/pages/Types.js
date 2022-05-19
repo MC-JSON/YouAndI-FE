@@ -29,7 +29,7 @@ const Types = (props) => {
   return (
     <div>
       <Logo landingLogo={props.landingLogo} />
-      <section className="container-grid">
+      <section className="container-grid container-grid2">
         {types.map((types) => (
           <div>
             <TypesRend
